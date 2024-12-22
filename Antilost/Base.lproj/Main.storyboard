@@ -192,7 +192,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.92549019610000005" green="0.94901960780000005" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <color key="backgroundColor" red="1" green="0.94117647058823528" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <constraints>
                                                                                     <constraint firstItem="vpt-0X-9hX" firstAttribute="centerX" secondItem="RMs-4a-9B0" secondAttribute="centerX" id="8Lm-ha-YS4"/>
                                                                                     <constraint firstAttribute="trailing" secondItem="iue-vd-yBH" secondAttribute="trailing" constant="10" id="8wF-Vk-gTn"/>
@@ -264,7 +264,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.92549019610000005" green="0.94901960780000005" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <color key="backgroundColor" red="0.88627450980392153" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <constraints>
                                                                                     <constraint firstItem="uth-9m-Ubb" firstAttribute="trailing" secondItem="nf0-w7-4AC" secondAttribute="trailing" id="207-Sc-ldU"/>
                                                                                     <constraint firstAttribute="bottom" secondItem="nf0-w7-4AC" secondAttribute="bottom" id="Fls-dh-vEL"/>
@@ -315,11 +315,11 @@
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charging" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51P-qg-SBl">
                                                                                         <rect key="frame" x="47" y="10" width="83" height="40"/>
                                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                                                                        <color key="textColor" red="0.24313725490196078" green="0.12549019607843137" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                        <color key="textColor" red="0.0" green="0.18431372549019609" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.92549019610000005" green="0.94901960780000005" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <color key="backgroundColor" red="0.93333333333333335" green="0.96470588235294119" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <constraints>
                                                                                     <constraint firstItem="51P-qg-SBl" firstAttribute="top" secondItem="ZjD-Xp-mt0" secondAttribute="top" constant="10" id="02X-qr-LyN"/>
                                                                                     <constraint firstAttribute="bottom" secondItem="ui9-2F-wuS" secondAttribute="bottom" id="GGb-jd-P5i"/>
@@ -386,11 +386,11 @@
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wi-Fi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajA-L5-rzU">
                                                                                         <rect key="frame" x="10" y="10" width="157" height="40"/>
                                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                                                                        <color key="textColor" red="0.0" green="0.14901960780000001" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                        <color key="textColor" red="0.22352941176470587" green="0.13725490196078433" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" red="0.92549019610000005" green="0.94901960780000005" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <color key="backgroundColor" red="0.99215686274509807" green="0.94901960784313721" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <constraints>
                                                                                     <constraint firstItem="9Cs-16-yag" firstAttribute="centerX" secondItem="hPB-Km-vfV" secondAttribute="centerX" id="271-ON-WPt"/>
                                                                                     <constraint firstItem="9Cs-16-yag" firstAttribute="top" secondItem="ajA-L5-rzU" secondAttribute="bottom" id="3OC-Mt-rhO"/>
@@ -526,7 +526,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="918.32061068702285" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="469" y="-50"/>
         </scene>
         <!--WTMP-->
         <scene sceneID="IDY-KI-q7w">
