@@ -15,6 +15,24 @@
 		C867639D2D092445000290E2 /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867639C2D092445000290E2 /* Wallpaper.swift */; };
 		C879286E2D17D6A5003BFC5E /* AlarmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C879286D2D17D6A5003BFC5E /* AlarmCell.xib */; };
 		C879286F2D17D6A5003BFC5E /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879286C2D17D6A5003BFC5E /* AlarmCell.swift */; };
+		C87938CD2D184B2F003BFC5E /* Alarm6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C02D184B2F003BFC5E /* Alarm6.mp3 */; };
+		C87938CE2D184B2F003BFC5E /* Alarm16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938CA2D184B2F003BFC5E /* Alarm16.mp3 */; };
+		C87938CF2D184B2F003BFC5E /* Alarm11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C52D184B2F003BFC5E /* Alarm11.mp3 */; };
+		C87938D02D184B2F003BFC5E /* Alarm12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C62D184B2F003BFC5E /* Alarm12.mp3 */; };
+		C87938D12D184B2F003BFC5E /* Alarm7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C12D184B2F003BFC5E /* Alarm7.mp3 */; };
+		C87938D22D184B2F003BFC5E /* Alarm4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938BE2D184B2F003BFC5E /* Alarm4.mp3 */; };
+		C87938D32D184B2F003BFC5E /* Alarm3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938BD2D184B2F003BFC5E /* Alarm3.mp3 */; };
+		C87938D42D184B2F003BFC5E /* Alarm15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C92D184B2F003BFC5E /* Alarm15.mp3 */; };
+		C87938D52D184B2F003BFC5E /* Alarm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938BB2D184B2F003BFC5E /* Alarm1.mp3 */; };
+		C87938D62D184B2F003BFC5E /* Alarm8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C22D184B2F003BFC5E /* Alarm8.mp3 */; };
+		C87938D72D184B2F003BFC5E /* Alarm17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938CB2D184B2F003BFC5E /* Alarm17.mp3 */; };
+		C87938D82D184B2F003BFC5E /* Alarm9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C32D184B2F003BFC5E /* Alarm9.mp3 */; };
+		C87938D92D184B2F003BFC5E /* Alarm10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C42D184B2F003BFC5E /* Alarm10.mp3 */; };
+		C87938DA2D184B2F003BFC5E /* Alarm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938BC2D184B2F003BFC5E /* Alarm2.mp3 */; };
+		C87938DB2D184B2F003BFC5E /* Alarm14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C82D184B2F003BFC5E /* Alarm14.mp3 */; };
+		C87938DC2D184B2F003BFC5E /* Alarm13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938C72D184B2F003BFC5E /* Alarm13.mp3 */; };
+		C87938DD2D184B2F003BFC5E /* Alarm0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938BA2D184B2F003BFC5E /* Alarm0.mp3 */; };
+		C87938DE2D184B2F003BFC5E /* Alarm5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87938BF2D184B2F003BFC5E /* Alarm5.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +64,24 @@
 		C867639C2D092445000290E2 /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
 		C879286C2D17D6A5003BFC5E /* AlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
 		C879286D2D17D6A5003BFC5E /* AlarmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmCell.xib; sourceTree = "<group>"; };
+		C87938BA2D184B2F003BFC5E /* Alarm0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm0.mp3; sourceTree = "<group>"; };
+		C87938BB2D184B2F003BFC5E /* Alarm1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm1.mp3; sourceTree = "<group>"; };
+		C87938BC2D184B2F003BFC5E /* Alarm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm2.mp3; sourceTree = "<group>"; };
+		C87938BD2D184B2F003BFC5E /* Alarm3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm3.mp3; sourceTree = "<group>"; };
+		C87938BE2D184B2F003BFC5E /* Alarm4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm4.mp3; sourceTree = "<group>"; };
+		C87938BF2D184B2F003BFC5E /* Alarm5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm5.mp3; sourceTree = "<group>"; };
+		C87938C02D184B2F003BFC5E /* Alarm6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm6.mp3; sourceTree = "<group>"; };
+		C87938C12D184B2F003BFC5E /* Alarm7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm7.mp3; sourceTree = "<group>"; };
+		C87938C22D184B2F003BFC5E /* Alarm8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm8.mp3; sourceTree = "<group>"; };
+		C87938C32D184B2F003BFC5E /* Alarm9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm9.mp3; sourceTree = "<group>"; };
+		C87938C42D184B2F003BFC5E /* Alarm10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm10.mp3; sourceTree = "<group>"; };
+		C87938C52D184B2F003BFC5E /* Alarm11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm11.mp3; sourceTree = "<group>"; };
+		C87938C62D184B2F003BFC5E /* Alarm12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm12.mp3; sourceTree = "<group>"; };
+		C87938C72D184B2F003BFC5E /* Alarm13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm13.mp3; sourceTree = "<group>"; };
+		C87938C82D184B2F003BFC5E /* Alarm14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm14.mp3; sourceTree = "<group>"; };
+		C87938C92D184B2F003BFC5E /* Alarm15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm15.mp3; sourceTree = "<group>"; };
+		C87938CA2D184B2F003BFC5E /* Alarm16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm16.mp3; sourceTree = "<group>"; };
+		C87938CB2D184B2F003BFC5E /* Alarm17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm17.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -107,6 +143,7 @@
 		C85E26A92D08CD8A0067C790 = {
 			isa = PBXGroup;
 			children = (
+				C87938CC2D184B2F003BFC5E /* Alarm Sounds */,
 				C884389E2D17ACF400E421F6 /* Cell */,
 				C85E26E62D08D0D50067C790 /* Vc */,
 				C85E26B42D08CD8A0067C790 /* Antilost */,
@@ -137,6 +174,31 @@
 				C862C2A72D16E7E300A0051A /* AlarmVc.swift */,
 			);
 			path = Vc;
+			sourceTree = "<group>";
+		};
+		C87938CC2D184B2F003BFC5E /* Alarm Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C87938BA2D184B2F003BFC5E /* Alarm0.mp3 */,
+				C87938BB2D184B2F003BFC5E /* Alarm1.mp3 */,
+				C87938BC2D184B2F003BFC5E /* Alarm2.mp3 */,
+				C87938BD2D184B2F003BFC5E /* Alarm3.mp3 */,
+				C87938BE2D184B2F003BFC5E /* Alarm4.mp3 */,
+				C87938BF2D184B2F003BFC5E /* Alarm5.mp3 */,
+				C87938C02D184B2F003BFC5E /* Alarm6.mp3 */,
+				C87938C12D184B2F003BFC5E /* Alarm7.mp3 */,
+				C87938C22D184B2F003BFC5E /* Alarm8.mp3 */,
+				C87938C32D184B2F003BFC5E /* Alarm9.mp3 */,
+				C87938C42D184B2F003BFC5E /* Alarm10.mp3 */,
+				C87938C52D184B2F003BFC5E /* Alarm11.mp3 */,
+				C87938C62D184B2F003BFC5E /* Alarm12.mp3 */,
+				C87938C72D184B2F003BFC5E /* Alarm13.mp3 */,
+				C87938C82D184B2F003BFC5E /* Alarm14.mp3 */,
+				C87938C92D184B2F003BFC5E /* Alarm15.mp3 */,
+				C87938CA2D184B2F003BFC5E /* Alarm16.mp3 */,
+				C87938CB2D184B2F003BFC5E /* Alarm17.mp3 */,
+			);
+			path = "Alarm Sounds";
 			sourceTree = "<group>";
 		};
 		C884389E2D17ACF400E421F6 /* Cell */ = {
@@ -268,6 +330,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87938CD2D184B2F003BFC5E /* Alarm6.mp3 in Resources */,
+				C87938CE2D184B2F003BFC5E /* Alarm16.mp3 in Resources */,
+				C87938CF2D184B2F003BFC5E /* Alarm11.mp3 in Resources */,
+				C87938D02D184B2F003BFC5E /* Alarm12.mp3 in Resources */,
+				C87938D12D184B2F003BFC5E /* Alarm7.mp3 in Resources */,
+				C87938D22D184B2F003BFC5E /* Alarm4.mp3 in Resources */,
+				C87938D32D184B2F003BFC5E /* Alarm3.mp3 in Resources */,
+				C87938D42D184B2F003BFC5E /* Alarm15.mp3 in Resources */,
+				C87938D52D184B2F003BFC5E /* Alarm1.mp3 in Resources */,
+				C87938D62D184B2F003BFC5E /* Alarm8.mp3 in Resources */,
+				C87938D72D184B2F003BFC5E /* Alarm17.mp3 in Resources */,
+				C87938D82D184B2F003BFC5E /* Alarm9.mp3 in Resources */,
+				C87938D92D184B2F003BFC5E /* Alarm10.mp3 in Resources */,
+				C87938DA2D184B2F003BFC5E /* Alarm2.mp3 in Resources */,
+				C87938DB2D184B2F003BFC5E /* Alarm14.mp3 in Resources */,
+				C87938DC2D184B2F003BFC5E /* Alarm13.mp3 in Resources */,
+				C87938DD2D184B2F003BFC5E /* Alarm0.mp3 in Resources */,
+				C87938DE2D184B2F003BFC5E /* Alarm5.mp3 in Resources */,
 				C879286E2D17D6A5003BFC5E /* AlarmCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

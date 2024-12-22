@@ -95,6 +95,8 @@ extension AlarmVc: UICollectionViewDataSource {
         cell.imv.image = UIImage(named: "Alarm\(indexPath.row)")
         cell.lbl.text = soundsArray[indexPath.row]
         cell.lbl.layer.cornerRadius = 7.0
+        cell.lbl.clipsToBounds = true
+        
         
         
         return cell
