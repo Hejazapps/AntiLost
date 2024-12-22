@@ -9,7 +9,7 @@ import UIKit
 
 class AlarmVc: UIViewController {
     
-    var gap:CGFloat = 10
+    var gap:CGFloat = 20
     @IBOutlet weak var collectionViewForAlarm: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
