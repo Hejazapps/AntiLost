@@ -6,8 +6,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class AlarmVc: UIViewController {
+    var audioPlayer: AVAudioPlayer?
     
     let soundsArray = [
       "Air Horn", "Rooster", "Dog", "Whistle", "Gun", "Train",
@@ -23,6 +25,21 @@ class AlarmVc: UIViewController {
         self.reigsterXib()
         
     }
+    
+    func playMP3(forFileName fileName: String) {
+            guard let url = Bundle.main.url(forResource: fileName, withExtension: "mp3") else {
+                print("Audio file \(fileName) not found.")
+                return
+            }
+
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: url)
+                audioPlayer?.prepareToPlay()
+                audioPlayer?.play()
+            } catch let error {
+                print("Error loading or playing the audio file: \(error.localizedDescription)")
+            }
+        }
     
     @IBAction func dismissTheView(_ sender: Any) {
         
@@ -106,7 +123,7 @@ extension AlarmVc: UICollectionViewDataSource {
                         didSelectItemAt indexPath: IndexPath) {
         
         
-        
+        self.playMP3(forFileName: "Alarm\(indexPath.row)")
         
     }
 }
