@@ -5,21 +5,71 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlarmCell" id="gTV-IL-0wX" customClass="AlarmCell" customModule="Antilost" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NI5-pO-Yt8">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZpR-AI-jPR">
+                                <rect key="frame" x="45" y="35" width="60" height="60"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZpR-AI-jPR" secondAttribute="height" multiplier="1:1" id="fD8-HG-Oxt"/>
+                                    <constraint firstAttribute="width" constant="60" id="rlF-jp-mFJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xye-pD-rNX">
+                                <rect key="frame" x="-5" y="100" width="160" height="21"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xye-pD-rNX" firstAttribute="top" secondItem="ZpR-AI-jPR" secondAttribute="bottom" constant="5" id="QUu-3A-295"/>
+                            <constraint firstItem="ZpR-AI-jPR" firstAttribute="centerY" secondItem="NI5-pO-Yt8" secondAttribute="centerY" constant="-10" id="Qgt-dk-b8V"/>
+                            <constraint firstItem="Xye-pD-rNX" firstAttribute="centerX" secondItem="ZpR-AI-jPR" secondAttribute="centerX" id="ToP-K1-yjZ"/>
+                            <constraint firstItem="ZpR-AI-jPR" firstAttribute="centerX" secondItem="NI5-pO-Yt8" secondAttribute="centerX" id="VYC-5U-Sza"/>
+                            <constraint firstItem="Xye-pD-rNX" firstAttribute="width" secondItem="ZpR-AI-jPR" secondAttribute="width" multiplier="2.66667" id="wie-54-pVd"/>
+                        </constraints>
+                    </view>
+                </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="NI5-pO-Yt8" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="8nE-nU-XLW"/>
+                <constraint firstItem="NI5-pO-Yt8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="YZV-Da-OE9"/>
+                <constraint firstItem="NI5-pO-Yt8" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="fVj-tg-zqL"/>
+                <constraint firstItem="NI5-pO-Yt8" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="g6l-ns-eTH"/>
+            </constraints>
+            <connections>
+                <outlet property="holderView" destination="NI5-pO-Yt8" id="XDk-IL-lMG"/>
+                <outlet property="imv" destination="ZpR-AI-jPR" id="Rmm-j6-W0C"/>
+                <outlet property="lbl" destination="Xye-pD-rNX" id="eYH-I3-KZX"/>
+            </connections>
             <point key="canvasLocation" x="26" y="-11"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
