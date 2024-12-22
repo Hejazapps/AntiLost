@@ -16,6 +16,13 @@ class Antitheft: UIViewController {
     }
 
 
+    @IBAction func gotoAlarmView(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AlarmVc") as!  AlarmVc
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+        
+    }
     /*
     // MARK: - Navigation
 

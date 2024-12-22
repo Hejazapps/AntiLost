@@ -9,7 +9,7 @@
       "scale" : "2x"
     },
     {
-      "filename" : "HomeTab-DTMP.png",
+      "filename" : "Rectangle 15646.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
@@ -17,8 +17,5 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "template-rendering-intent" : "original"
   }
 }

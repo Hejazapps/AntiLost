@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		C85E26EA2D08D0F90067C790 /* Antitheft.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E26E72D08D0F90067C790 /* Antitheft.swift */; };
 		C85E26EC2D08D2110067C790 /* WTMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E26EB2D08D2110067C790 /* WTMP.swift */; };
+		C862C2A82D16E7E300A0051A /* AlarmVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C862C2A72D16E7E300A0051A /* AlarmVc.swift */; };
 		C86763992D0922D5000290E2 /* ClapToFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86763982D0922D5000290E2 /* ClapToFind.swift */; };
 		C867639B2D092373000290E2 /* DTMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867639A2D092373000290E2 /* DTMP.swift */; };
 		C867639D2D092445000290E2 /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867639C2D092445000290E2 /* Wallpaper.swift */; };
+		C879286E2D17D6A5003BFC5E /* AlarmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C879286D2D17D6A5003BFC5E /* AlarmCell.xib */; };
+		C879286F2D17D6A5003BFC5E /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879286C2D17D6A5003BFC5E /* AlarmCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,12 @@
 		C85E26D22D08CD8C0067C790 /* AntilostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntilostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85E26E72D08D0F90067C790 /* Antitheft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antitheft.swift; sourceTree = "<group>"; };
 		C85E26EB2D08D2110067C790 /* WTMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTMP.swift; sourceTree = "<group>"; };
+		C862C2A72D16E7E300A0051A /* AlarmVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVc.swift; sourceTree = "<group>"; };
 		C86763982D0922D5000290E2 /* ClapToFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClapToFind.swift; sourceTree = "<group>"; };
 		C867639A2D092373000290E2 /* DTMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTMP.swift; sourceTree = "<group>"; };
 		C867639C2D092445000290E2 /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+		C879286C2D17D6A5003BFC5E /* AlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		C879286D2D17D6A5003BFC5E /* AlarmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -101,6 +107,7 @@
 		C85E26A92D08CD8A0067C790 = {
 			isa = PBXGroup;
 			children = (
+				C884389E2D17ACF400E421F6 /* Cell */,
 				C85E26E62D08D0D50067C790 /* Vc */,
 				C85E26B42D08CD8A0067C790 /* Antilost */,
 				C85E26CB2D08CD8C0067C790 /* AntilostTests */,
@@ -127,8 +134,18 @@
 				C86763982D0922D5000290E2 /* ClapToFind.swift */,
 				C867639A2D092373000290E2 /* DTMP.swift */,
 				C867639C2D092445000290E2 /* Wallpaper.swift */,
+				C862C2A72D16E7E300A0051A /* AlarmVc.swift */,
 			);
 			path = Vc;
+			sourceTree = "<group>";
+		};
+		C884389E2D17ACF400E421F6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C879286C2D17D6A5003BFC5E /* AlarmCell.swift */,
+				C879286D2D17D6A5003BFC5E /* AlarmCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C879286E2D17D6A5003BFC5E /* AlarmCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86763992D0922D5000290E2 /* ClapToFind.swift in Sources */,
+				C862C2A82D16E7E300A0051A /* AlarmVc.swift in Sources */,
 				C867639D2D092445000290E2 /* Wallpaper.swift in Sources */,
 				C85E26EC2D08D2110067C790 /* WTMP.swift in Sources */,
+				C879286F2D17D6A5003BFC5E /* AlarmCell.swift in Sources */,
 				C85E26EA2D08D0F90067C790 /* Antitheft.swift in Sources */,
 				C867639B2D092373000290E2 /* DTMP.swift in Sources */,
 			);
