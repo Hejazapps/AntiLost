@@ -8,6 +8,10 @@
 import UIKit
 
 class PocketVc: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var toggleImv: UIImageView!
+    var isEnabled = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +21,21 @@ class PocketVc: UIViewController {
     
 
     @IBAction func dismissView(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
+
+    @IBAction func enablePocketMode(_ sender: Any) {
+        
+        toggleImv.image = isEnabled ? UIImage(named: "tap") : UIImage(named: "disbale")
+        label.text = !isEnabled ? "Disable" : "Enable"
+        
+        isEnabled.toggle()
+        
+        
         
     }
+    
     /*
     // MARK: - Navigation
 

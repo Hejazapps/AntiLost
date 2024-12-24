@@ -138,7 +138,7 @@
                                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meu-el-Wb6">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="177" height="171"/>
                                                                                         <state key="normal" title="Button"/>
-                                                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                                                        <buttonConfiguration key="configuration" style="plain"/>
                                                                                         <connections>
                                                                                             <action selector="gotoPocket:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a2h-BZ-y6l"/>
                                                                                         </connections>
@@ -1085,7 +1085,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="dismissView:" destination="23b-Yo-2v8" eventType="touchUpInside" id="x4A-K9-qQ8"/>
+                                                    <action selector="dismissView:" destination="23b-Yo-2v8" eventType="touchUpInside" id="sxp-oW-jOb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1105,24 +1105,69 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LpT-rQ-Osq">
                                         <rect key="frame" x="0.0" y="100" width="393" height="752"/>
                                         <subviews>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MNE-LL-p2B">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="752"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IOq-Qf-UZC">
+                                                <rect key="frame" x="0.0" y="226" width="393" height="300"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pocket" translatesAutoresizingMaskIntoConstraints="NO" id="rvY-mj-JU5">
+                                                        <rect key="frame" x="121.66666666666669" y="55" width="150" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="rvY-mj-JU5" secondAttribute="height" multiplier="1:1" id="hLV-TI-ga9"/>
+                                                            <constraint firstAttribute="width" constant="150" id="oJC-lq-scQ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alarm when the Phone is Taken Out of the Pocket." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayI-1W-PA4">
+                                                        <rect key="frame" x="10" y="210" width="373" height="40.666666666666657"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HqQ-85-Pn6">
-                                                    <size key="itemSize" width="128" height="128"/>
-                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                </collectionViewFlowLayout>
-                                                <cells/>
-                                            </collectionView>
+                                                <constraints>
+                                                    <constraint firstItem="rvY-mj-JU5" firstAttribute="centerY" secondItem="IOq-Qf-UZC" secondAttribute="centerY" constant="-20" id="Qgy-bn-soK"/>
+                                                    <constraint firstItem="ayI-1W-PA4" firstAttribute="top" secondItem="rvY-mj-JU5" secondAttribute="bottom" constant="5" id="QyJ-gc-CMi"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ayI-1W-PA4" secondAttribute="trailing" constant="10" id="VCA-lK-9Rq"/>
+                                                    <constraint firstItem="rvY-mj-JU5" firstAttribute="centerX" secondItem="IOq-Qf-UZC" secondAttribute="centerX" id="YUe-YU-HFa"/>
+                                                    <constraint firstItem="ayI-1W-PA4" firstAttribute="leading" secondItem="IOq-Qf-UZC" secondAttribute="leading" constant="10" id="rH5-EX-ST1"/>
+                                                    <constraint firstAttribute="height" constant="300" id="upd-0n-wCY"/>
+                                                </constraints>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enable" translatesAutoresizingMaskIntoConstraints="NO" id="Axx-AI-bab">
+                                                <rect key="frame" x="156.66666666666666" y="546" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Axx-AI-bab" secondAttribute="height" multiplier="1:1" id="8gx-T4-JuO"/>
+                                                    <constraint firstAttribute="width" constant="80" id="jBm-hL-Rsm"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcW-yo-wlR">
+                                                <rect key="frame" x="159" y="565.66666666666663" width="75" height="41"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="enablePocketMode:" destination="23b-Yo-2v8" eventType="touchUpInside" id="0X7-8k-jZy"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NxI-PH-iBG">
+                                                <rect key="frame" x="172.33333333333334" y="646" width="48.333333333333343" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="MNE-LL-p2B" firstAttribute="leading" secondItem="LpT-rQ-Osq" secondAttribute="leading" id="9G5-so-gcL"/>
-                                            <constraint firstItem="MNE-LL-p2B" firstAttribute="top" secondItem="LpT-rQ-Osq" secondAttribute="top" id="Qye-hb-S7n"/>
-                                            <constraint firstAttribute="trailing" secondItem="MNE-LL-p2B" secondAttribute="trailing" id="gRl-hW-bep"/>
-                                            <constraint firstAttribute="bottom" secondItem="MNE-LL-p2B" secondAttribute="bottom" id="iJS-Fc-hx8"/>
+                                            <constraint firstItem="zcW-yo-wlR" firstAttribute="height" secondItem="Axx-AI-bab" secondAttribute="height" multiplier="0.5125" id="6kC-CX-y8t"/>
+                                            <constraint firstItem="zcW-yo-wlR" firstAttribute="width" secondItem="Axx-AI-bab" secondAttribute="width" multiplier="0.9375" id="BzC-rV-xDK"/>
+                                            <constraint firstItem="zcW-yo-wlR" firstAttribute="centerX" secondItem="Axx-AI-bab" secondAttribute="centerX" id="ELi-AP-Wvd"/>
+                                            <constraint firstItem="IOq-Qf-UZC" firstAttribute="centerY" secondItem="LpT-rQ-Osq" secondAttribute="centerY" id="HAN-rG-k86"/>
+                                            <constraint firstItem="Axx-AI-bab" firstAttribute="top" secondItem="IOq-Qf-UZC" secondAttribute="bottom" constant="20" id="SsT-p8-lFT"/>
+                                            <constraint firstItem="IOq-Qf-UZC" firstAttribute="centerX" secondItem="LpT-rQ-Osq" secondAttribute="centerX" id="XQt-nQ-Uxo"/>
+                                            <constraint firstAttribute="trailing" secondItem="IOq-Qf-UZC" secondAttribute="trailing" id="ZVr-6f-z7f"/>
+                                            <constraint firstItem="NxI-PH-iBG" firstAttribute="centerX" secondItem="LpT-rQ-Osq" secondAttribute="centerX" id="axS-o9-fJq"/>
+                                            <constraint firstItem="zcW-yo-wlR" firstAttribute="centerY" secondItem="Axx-AI-bab" secondAttribute="centerY" id="iZ2-ys-H4F"/>
+                                            <constraint firstItem="Axx-AI-bab" firstAttribute="centerX" secondItem="LpT-rQ-Osq" secondAttribute="centerX" id="nzD-kS-vuf"/>
+                                            <constraint firstItem="NxI-PH-iBG" firstAttribute="top" secondItem="Axx-AI-bab" secondAttribute="bottom" constant="20" id="zki-Bt-Bln"/>
+                                            <constraint firstItem="IOq-Qf-UZC" firstAttribute="leading" secondItem="LpT-rQ-Osq" secondAttribute="leading" id="zwp-2I-wGo"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1154,6 +1199,10 @@
                             <constraint firstItem="WQx-ub-0MO" firstAttribute="leading" secondItem="wyN-Jb-Wfd" secondAttribute="leading" id="ruP-Pk-MwA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="NxI-PH-iBG" id="8rM-Tw-BDw"/>
+                        <outlet property="toggleImv" destination="Axx-AI-bab" id="ulN-tX-3RZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mim-W8-FFX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1334,6 +1383,7 @@
         <image name="clap" width="19.333333969116211" height="19.333333969116211"/>
         <image name="clap-hands_svgrepo.com" width="208" height="208.33332824707031"/>
         <image name="colorDTMP" width="19" height="19.333333969116211"/>
+        <image name="enable" width="87" height="90"/>
         <image name="firstUnselected" width="19.333333969116211" height="19.333333969116211"/>
         <image name="headphone" width="60" height="59.333332061767578"/>
         <image name="phone_3562804 1" width="208" height="208"/>
