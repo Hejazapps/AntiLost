@@ -15,7 +15,13 @@ class Antitheft: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func gotoPocket(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "PocketVc") as!  PocketVc
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+    
     @IBAction func gotoAlarmView(_ sender: Any) {
         
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "AlarmVc") as!  AlarmVc
