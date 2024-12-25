@@ -29,6 +29,15 @@ class Antitheft: UIViewController {
         self.present(vc, animated: true, completion: nil)
         
     }
+    
+    
+    @IBAction func gotoChargeView(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "OverChargeVc") as!  OverChargeVc
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+        
+    }
     /*
     // MARK: - Navigation
 

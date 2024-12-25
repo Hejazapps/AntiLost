@@ -1,49 +1,29 @@
-//
-//  PocketVc.swift
-//  FinalAntiLost
-//
-//  Created by SADIQUL AMIN IBNE AZAD on 24/12/24.
-//
-
 import UIKit
+import CoreMotion
+import AVFoundation
 
 class PocketVc: UIViewController {
-    
+
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var toggleImv: UIImageView!
-    var isEnabled = false
-
+   
+    var isPocketModeEnabled = false
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        label.text = "Tap to Enable"
+        
     }
-    
 
     @IBAction func dismissView(_ sender: Any) {
         self.dismiss(animated: true)
     }
-    
 
     @IBAction func enablePocketMode(_ sender: Any) {
-        
-        toggleImv.image = isEnabled ? UIImage(named: "tap") : UIImage(named: "disbale")
-        label.text = !isEnabled ? "Disable" : "Enable"
-        
-        isEnabled.toggle()
-        
-        
+        toggleImv.image = isPocketModeEnabled ? UIImage(named: "tap") : UIImage(named: "disbale")
+        label.text = isPocketModeEnabled ? "Tap to Enable" : "Disable"
+        isPocketModeEnabled.toggle()
         
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

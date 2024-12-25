@@ -10,6 +10,7 @@ import AVFoundation
 
 class AlarmVc: UIViewController {
     var audioPlayer: AVAudioPlayer?
+    var currentIndex = -1
     
     let soundsArray = [
       "Air Horn", "Rooster", "Dog", "Whistle", "Gun", "Train",
@@ -122,8 +123,26 @@ extension AlarmVc: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView,
                         didSelectItemAt indexPath: IndexPath) {
         
+        if currentIndex == indexPath.row {
+            if let player = audioPlayer {
+                if player.isPlaying {
+                    // Stop the audio player if it's currently playing
+                    player.stop()
+                } else {
+                    // Start playing if it's not currently playing
+                    self.playMP3(forFileName: "Alarm\(indexPath.row)")
+
+                }
+            } else {
+                // Handle the case where audioPlayer is nil (uninitialized)
+                print("Audio player is not initialized.")
+            }
+        }
+        else {
+            self.playMP3(forFileName: "Alarm\(indexPath.row)")
+        }
         
-        self.playMP3(forFileName: "Alarm\(indexPath.row)")
+        currentIndex = indexPath.row
         
     }
 }
