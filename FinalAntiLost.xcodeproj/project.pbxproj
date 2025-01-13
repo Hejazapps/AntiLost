@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C8B9FC152D34D6340056026F /* AppGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9FC142D34D6330056026F /* AppGlobal.swift */; };
+		C8B9FC172D34E8D80056026F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9FC162D34E8D50056026F /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C8964C3E2D1A5D0700489127 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		C8964C272D1A5D0500489127 /* FinalAntiLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalAntiLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8964C3D2D1A5D0700489127 /* FinalAntiLostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalAntiLostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8964C472D1A5D0700489127 /* FinalAntiLostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalAntiLostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B9FC142D34D6330056026F /* AppGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGlobal.swift; sourceTree = "<group>"; };
+		C8B9FC162D34E8D50056026F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +95,8 @@
 		C8964C1E2D1A5D0500489127 = {
 			isa = PBXGroup;
 			children = (
+				C8B9FC162D34E8D50056026F /* NetworkManager.swift */,
+				C8B9FC142D34D6330056026F /* AppGlobal.swift */,
 				C8964C292D1A5D0500489127 /* FinalAntiLost */,
 				C8964C402D1A5D0700489127 /* FinalAntiLostTests */,
 				C8964C4A2D1A5D0700489127 /* FinalAntiLostUITests */,
@@ -249,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B9FC152D34D6340056026F /* AppGlobal.swift in Sources */,
+				C8B9FC172D34E8D80056026F /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

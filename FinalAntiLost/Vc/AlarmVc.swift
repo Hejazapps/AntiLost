@@ -32,6 +32,8 @@ class AlarmVc: UIViewController {
                 print("Audio file \(fileName) not found.")
                 return
             }
+        
+          selectedFileName = fileName
 
             do {
                 audioPlayer = try AVAudioPlayer(contentsOf: url)
