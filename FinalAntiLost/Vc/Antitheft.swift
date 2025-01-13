@@ -31,6 +31,14 @@ class Antitheft: UIViewController {
     }
     
     
+    @IBAction func unplugVc(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "UnPlagVc") as!  UnPlagVc
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+        
+        
+    }
     @IBAction func gotoChargeView(_ sender: Any) {
         
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "OverChargeVc") as!  OverChargeVc

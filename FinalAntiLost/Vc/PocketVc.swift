@@ -9,19 +9,13 @@ class PocketVc: UIViewController {
     
     var isPocketModeEnabled = false
     
-    private var motionManagerKit: MotionManagerKit?
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         label.text = "Tap to Enable"
         
-        motionManagerKit = MotionManagerKit()
         
-        // Set up the callback for motion detection
-        motionManagerKit?.onMotionDetected = {
-            // You can add additional functionality here when motion is detected
-            print("Significant motion detected!")
-        }
         
     }
     
@@ -34,11 +28,6 @@ class PocketVc: UIViewController {
         label.text = isPocketModeEnabled ? "Tap to Enable" : "Disable"
         isPocketModeEnabled.toggle()
         
-        if isPocketModeEnabled {
-            motionManagerKit?.startMonitoring()
-        } else {
-            motionManagerKit?.stopMonitoring()
-        }
         
         
     }
